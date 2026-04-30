@@ -5,24 +5,24 @@ This is a professional **Streamlit** application integrated with an **SQLite** b
 ---
 
 ## 🚀 Features
-* [cite_start]**Live Dashboard**: Real-time metrics for total bookings and daily travelers[cite: 1].
-* [cite_start]**Interactive Booking**: Visual seat map for selecting seats across multiple coaches[cite: 1].
-* [cite_start]**Full CRUD**: View, Book, Modify, and Cancel reservations through a tabbed interface[cite: 1].
-* [cite_start]**Data Export**: Search functionality and CSV download for all records[cite: 1].
-* [cite_start]**Hybrid Backend**: Shared logic between the Streamlit web app and a Terminal-based menu[cite: 1, 3].
+* **Live Dashboard**: Real-time metrics for total bookings and daily travelers.
+* **Interactive Booking**: Visual seat map for selecting seats across multiple coaches.
+* **Full CRUD**: View, Book, Modify, and Cancel reservations through a tabbed interface.
+* **Data Export**: Search functionality and CSV download for all records.
+* **Hybrid Backend**: Shared logic between the Streamlit web app and a Terminal-based menu.
 
 ---
 
 ## 🛠️ Tech Stack
-* [cite_start]**Frontend**: Streamlit [cite: 1]
-* [cite_start]**Data Analysis**: Pandas [cite: 1]
+* **Frontend**: Streamlit
+* **Data Analysis**: Pandas
 * **Database**: SQLite
-* [cite_start]**Typography**: Playfair Display & DM Sans (via Google Fonts) [cite: 1]
+* **Typography**: Playfair Display & DM Sans (via Google Fonts) 
 
 ---
 
 ## 📂 File Structure
-* [cite_start]`app.py`: The main web application and UI logic[cite: 1].
+* `app.py`: The main web application and UI logic.
 * `railway.py`: Database operations and the CLI menu interface.
 * `railway.db`: SQLite database storing the `bookings` table.
 
@@ -47,7 +47,7 @@ pip install streamlit pandas
 ```
 
 ### 2. Launch the Application
-[cite_start]To run the web interface[cite: 1]:
+To run the web interface:
 ```bash
 streamlit run app.py
 ```
